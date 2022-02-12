@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 80%;
+    margin: 0 auto;
+    /* background: url("fireworks1.gif"); */
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.cards div{
+    background-image: url(BG.jpg);
+    width: 24%;
+    height: 24%;
+    margin: 1px;
+    /* font-size: 100px; */
+    text-align: center;
+    font-size: 0;
+    /* pointer-events: none; */
+}
+
+.message{
+    background-color: rgba(113, 148, 121, 1);
+    position:fixed;
+    top:100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 250px;
+    height: 150px;
+    z-index: 999;
+    text-align: center;
+    border-radius: 10px;
+    /* display: none; */
+    transition: all 4s;
+}
+.message h1{
+    font-size: 48px;
+    padding-top: 10px;
+    background: linear-gradient(to left, #d6d318, #f88519, #fc0707);
+    background: -webkit-linear-gradient(to left,  #d6d318, #f88519, #fc0707);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#btn{
+    padding: 5px 10px;
+    margin-top: 10px;
+    font-family: DFKai-sb;
+    font-size: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #ddd;
+}
