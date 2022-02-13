@@ -40,7 +40,7 @@
                     // console.log(aa)
                     aa.style.fontSize  = `0px`;
                     that.style.fontSize = `0px`;
-                },1000)
+                },700)
             }
             if(count === 8){
                 document.documentElement.style.background = 'url("fireworks1.gif")';
